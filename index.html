@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Biblioteca Agrícola IA</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 Biblioteca Agrícola IA</h1>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Pesquisar máquina, fabricante ou modelo..."
+    >
+</header>
+
+<section class="manuals">
+
+    <div class="card" data-name="John Deere 6110J">
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>John Deere 6110J</h3>
+        <p>Manual de operação e manutenção.</p>
+        <button>Abrir Manual</button>
+    </div>
+
+    <div class="card" data-name="Massey Ferguson 4275">
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>Massey Ferguson 4275</h3>
+        <p>Manual completo do equipamento.</p>
+        <button>Abrir Manual</button>
+    </div>
+
+    <div class="card" data-name="New Holland TL75">
+        <img src="https://via.placeholder.com/300x180" alt="">
+        <h3>New Holland TL75</h3>
+        <p>Informações técnicas e manutenção.</p>
+        <button>Abrir Manual</button>
+    </div>
+
+</section>
+
+<section class="gallery">
+
+    <h2>Galeria Técnica</h2>
+
+    <div class="images">
+
+        <img src="https://via.placeholder.com/250" alt="">
+        <img src="https://via.placeholder.com/250" alt="">
+        <img src="https://via.placeholder.com/250" alt="">
+        <img src="https://via.placeholder.com/250" alt="">
+
+    </div>
+
+</section>
+
+<section class="ai-chat">
+
+    <h2>🤖 Assistente Técnico IA</h2>
+
+    <textarea
+        id="question"
+        placeholder="Descreva o problema da máquina..."
+    ></textarea>
+
+    <button onclick="askAI()">
+        Perguntar à IA
+    </button>
+
+    <div id="response"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
